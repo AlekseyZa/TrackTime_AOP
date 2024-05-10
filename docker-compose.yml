@@ -1,0 +1,21 @@
+services:
+  application:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    container_name: app
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/track_time
+      - SPRING_DATASOURCE_USERNAME=POSTGRES
+      - SPRING_DATASOURCE_PASSWORD=ROOT
+  db:
+    image: 'postgres:13.1-alpine'
+    container_name: db
+    environment:
+      - POSTGRES_PASSWORD=ROOT
+      - POSTGRES_USER=POSTGRES
+      - POSTGRES_DB=track_time
+    ports:
+      - '5432:5432'

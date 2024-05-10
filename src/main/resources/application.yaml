@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: TrackTime
+  datasource:
+    url: jdbc:postgresql://localhost:5432/track_time?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    open-in-view: false
+server:
+  port: 8080
+  servlet:
+    context-path: /
+logging:
+  level:
+    root: info
+    org.springframework.web: debug
+    org.hibernate: warn
+  file:
+    name: applog.txt
+    path: /
