@@ -45,9 +45,14 @@ http://localhost:8080/v3/api-docs
 
 Для тестирования можно использовать браузера, postman, swagger-ui (http://localhost:8080/swagger-ui/index.html):
 1) Запустить многократный повтор в цикле всех тестовых методов отправив GET запрос по адресу
+
    http://localhost:8080/api/v1/methods/run-all   
+
 2) Вызвать в любом порядке статистические формы :
+
    http://localhost:8080/api/v1/statistic/method-execution-log
+
    http://localhost:8080/api/v1/statistic/agregate-method-execution
+
    http://localhost:8080/api/v1/statistic/groupbyannotation-method-execution
 
