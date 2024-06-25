@@ -60,3 +60,12 @@ http://localhost:8080/v3/api-docs
 
    http://localhost:8080/api/v1/statistic/groupbyannotation-method-execution
 
+
+### В проекте использовано:
+Spring boot 3
+Postgres
+Docker
+Liquibase
+Lombok
+Swagger
+
