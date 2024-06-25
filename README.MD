@@ -62,10 +62,17 @@ http://localhost:8080/v3/api-docs
 
 
 ### В проекте использовано:
+
 Spring boot 3
+
 Postgres
+
 Docker
+
 Liquibase
+
 Lombok
+
 Swagger
+
 
