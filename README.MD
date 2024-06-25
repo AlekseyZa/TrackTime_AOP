@@ -1,6 +1,9 @@
 ### Задание
 
-Реализовать систему синхронного/асинхронного учета времени выполнения методов в зависимости от аннотации (TrackTime/TrackAsyncTime). Полное описание требований в файле Tech Specification/Specification.txt
+Реализовать систему синхронного/асинхронного учета времени выполнения методов в зависимости от аннотации (TrackTime/TrackAsyncTime). 
+
+Полное описание требований в файле: 
+TechSpecification/Specification.txt
 
 ### Общая информация о приложении
 
@@ -56,4 +59,20 @@ http://localhost:8080/v3/api-docs
    http://localhost:8080/api/v1/statistic/agregate-method-execution
 
    http://localhost:8080/api/v1/statistic/groupbyannotation-method-execution
+
+
+### В проекте использовано:
+
+Spring boot 3
+
+Postgres
+
+Docker
+
+Liquibase
+
+Lombok
+
+Swagger
+
 
