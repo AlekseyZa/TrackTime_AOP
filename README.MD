@@ -3,7 +3,7 @@
 Реализовать систему синхронного/асинхронного учета времени выполнения методов в зависимости от аннотации (TrackTime/TrackAsyncTime). 
 
 Полное описание требований в файле: 
-TechSpecification/Specification.txt
+techSpecification/Specification.txt
 
 ### Общая информация о приложении
 
